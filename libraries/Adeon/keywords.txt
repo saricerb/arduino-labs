@@ -1,0 +1,55 @@
+#######################################
+# Syntax Coloring Map for Adeon
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Adeon	KEYWORD1
+GSM 	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+addUser	KEYWORD2
+deleteUser	KEYWORD2
+editUserPhone	KEYWORD2
+editUserRights	KEYWORD2
+isUserInAdeon	KEYWORD2
+getNumOfUsers	KEYWORD2
+getUserRightsLevel	KEYWORD2
+printUsers	KEYWORD2
+
+addParam	KEYWORD2
+addParamWithCallback	KEYWORD2
+deleteParam	KEYWORD2
+editParamName	KEYWORD2
+editParamValue	KEYWORD2
+isParamInAdeon	KEYWORD2
+getNumOfParams	KEYWORD2
+getParamValue	KEYWORD2
+printParams	KEYWORD2
+setParamAccess  KEYWORD2
+
+parseBuf	KEYWORD1
+isAdeonReady	KEYWORD1
+
+begin		KEYWORD2
+checkGsmOutput	KEYWORD2
+isNewMsgAvailable	KEYWORD2
+getMsg		KEYWORD2
+getPhoneNum	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ADEON_ADMIN LITERAL1
+ADEON_USER LITERAL1
+ADEON_HOST LITERAL1
+
+SHORT_HASH_LENGTH LITERAL1
+MSG_BUFFER_LENGTH LITERAL1
+LIST_ITEM_LENGTH LITERAL1

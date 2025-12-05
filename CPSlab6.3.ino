@@ -47,13 +47,13 @@ void loop() {
   // ---------------------------
   //      STATE MACHINE
   // ---------------------------
-  if (tempC < 22) {
+  if (tempC < 24) {
     fanPWM = 0;         // OFF
   }
-  else if (tempC <= 24) {
+  else if (tempC <= 27) {
     fanPWM = 64;        // LOW (≈25% duty)
   }
-  else if (tempC <= 27) {
+  else if (tempC <= 30) {
     fanPWM = 128;       // MEDIUM (≈50% duty)
   }
   else {
